@@ -260,11 +260,11 @@ h6 {
 .service span {
 	display: inline-block;
 	color: var(--secondaryColor);
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	margin-bottom: 1.5rem;
 }
-.services h6 {
-	letter-spacing: var(--mainSpacing);
+.services h4 {
+	font-weight: bold;
 }
 .services p {
 	width: 80%;
