@@ -103,6 +103,13 @@ h6 {
 	display: flex;
 	justify-content: space-between;
 }
+.nav-logo {
+	/* position: absolute;
+	left: 3vw;
+	top: 2vh;
+	height: 50px;
+	margin-right: 1em; */
+}
 .nav-btn {
 	background: transparent;
 	border: none;
@@ -154,6 +161,7 @@ h6 {
 	.nav-links a {
 		margin: 0 1rem;
 		padding: 0.5rem 0;
+		display: inline;
 	}
 }
 /* end of navbar */
