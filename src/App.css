@@ -6,7 +6,8 @@
 	box-sizing: border-box;
 }
 :root {
-	--primaryColor: #af9a7d;
+	--primaryColor: #3DAECF;
+	--secondaryColor: #FBEACD;
 	--mainWhite: #fff;
 	--offWhite: #f7f7f7;
 	--mainBlack: #222;
@@ -21,7 +22,7 @@
 body {
 	padding-top: 66px;
 	color: var(--mainBlack);
-	background: var(--mainWhite);
+	background: var(--secondaryColor);
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
 }
@@ -60,16 +61,16 @@ h6 {
 	text-decoration: none;
 	letter-spacing: var(--mainSpacing);
 	color: var(--mainBlack);
-	background: var(--primaryColor);
+	background: var(--secondaryColor);
 	padding: 0.4rem 0.9rem;
-	border: 3px solid var(--primaryColor);
+	border: 3px solid var(--secondaryColor);
 	transition: var(--mainTransition);
 	text-transform: uppercase;
 	cursor: pointer;
 }
 .btn-primary:hover {
 	background: transparent;
-	color: var(--primaryColor);
+	color: var(--secondaryColor);
 }
 .loading {
 	text-transform: capitalize;
@@ -96,7 +97,7 @@ h6 {
 	left: 0;
 	width: 100%;
 	padding: 0.75rem 2rem;
-	background: var(--offWhite);
+	background: var(--secondaryColor);
 	z-index: 1;
 }
 .nav-header {
@@ -130,11 +131,11 @@ h6 {
 	display: block;
 	text-decoration: none;
 	padding: 1rem 0;
-	color: var(--mainBlack);
+	color: var(--primaryColor);
 	transition: var(--mainTransition);
 	text-align: center;
 	font-size: 1rem;
-	font-weight: 600;
+	font-weight: bold;
 	letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
@@ -162,7 +163,7 @@ h6 {
 	.nav-links a {
 		margin: 0 1rem;
 		padding: 0.5rem 0;
-		display: inline;
+		display: inline-block;
 	}
 }
 /* end of navbar */
@@ -196,7 +197,7 @@ h6 {
 .banner div {
 	width: 10rem;
 	height: 5px;
-	background: var(--primaryColor);
+	background: var(--secondaryColor);
 	margin: 1.7rem auto;
 }
 .banner p {
@@ -244,8 +245,9 @@ h6 {
 	padding: 5rem 0;
 }
 .services {
-	background: var(--darkGrey);
+	background: var(--primaryColor);
 	text-align: center;
+	color: var(--secondaryColor);
 }
 .services-center {
 	width: 90vw;
@@ -257,7 +259,7 @@ h6 {
 }
 .service span {
 	display: inline-block;
-	color: var(--primaryColor);
+	color: var(--secondaryColor);
 	font-size: 2.5rem;
 	margin-bottom: 1.5rem;
 }
@@ -489,6 +491,8 @@ h6 {
 	display: block;
 	letter-spacing: var(--mainSpacing);
 	margin-bottom: 0.5rem;
+	color: var(--primaryColor);
+	font-weight: bold;
 }
 .form-control {
 	width: 100%;
