@@ -18,6 +18,7 @@ export default function RoomsFilter({ rooms }) {
 	types = ['all', ...types];
 	//Map to JSX
 	types = types.map((item, index) => {
+		item = item[0].toUpperCase() + item.slice(1)
 		return (
 			<option value={item} key={index}>
 				{item}
