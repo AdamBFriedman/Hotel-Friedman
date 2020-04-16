@@ -107,9 +107,9 @@ h6 {
 .nav-logo {
 	/* position: absolute;
 	left: 3vw;
-	top: 2vh;
+	top: 2vh; */
 	height: 50px;
-	margin-right: 1em; */
+	width: 100px;
 }
 .nav-btn {
 	background: transparent;
